@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Rotate from "./Rotate"
 function App() {
   return (
     <div className="App">
@@ -15,6 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          <Rotate/>
           Learn React
         </a>
       </header>
